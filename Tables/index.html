@@ -17,41 +17,45 @@
   <div class="search">Search the table</div>
 
   <table> <!--Create table-->
-    <tr>  <!--Table rows-->
-        <th scope = "col">Company Name</th> <!--To add titles to rows and columns, you can use the table heading element: <th>-->
-        <th scope = "col">Number of Items to Ship</th> <!--scope takes either row or col-->
-        <th scope = "col">Next Action</th>
-    </tr>
-    <tr>
-        <td>Adam's Greenworks'</td>
-        <td>14</td>
-        <td>Package Items</td>
-    </tr>
-    <tr>
-        <td>Davie's Burgers</td>
-        <td>2</td>
-        <td rowspan="2">Send Invoice</td> <!--Data can also span multiple rows using the rowspan attribute-->
-    </tr>
-    <tr>
-        <td>Baker's Bike Shop</td>
-        <td>3</td>
-        <td>Send Invoice</td>
-    </tr>
-    <tr>
-        <td>Miss Sally's Southern</td>
-        <td>4</td>
-        <td>Ship</td>
-    </tr>
-    <tr>
-        <td colspan="2">Summit Resort Rentals</td> <!--Data can span columns using the colspan attribute-->
-        <td>4</td>
-        <td>Ship</td>
-    </tr>
-    <tr>
-        <td>Strike Fitness</td>
-        <td>1</td>
-        <td>Enter Order</td>
-    </tr>
+    <thead><!--section off the table’s column headings using the <thead>-->
+        <tr>  <!--Table rows-->
+            <th scope = "col">Company Name</th> <!--To add titles to rows and columns, you can use the table heading element: <th>-->
+            <th scope = "col">Number of Items to Ship</th> <!--scope takes either row or col-->
+            <th scope = "col">Next Action</th>
+        </tr>
+    </thead>
+    <tbody><!--Long tables can be sectioned off using the table body element: <tbody>-->
+        <tr>
+            <td>Adam's Greenworks'</td>
+            <td>14</td>
+            <td>Package Items</td>
+        </tr>
+        <tr>
+            <td>Davie's Burgers</td>
+            <td>2</td>
+            <td rowspan="2">Send Invoice</td> <!--Data can also span multiple rows using the rowspan attribute-->
+        </tr>
+        <tr>
+            <td>Baker's Bike Shop</td>
+            <td>3</td>
+            <td>Send Invoice</td>
+        </tr>
+        <tr>
+            <td>Miss Sally's Southern</td>
+            <td>4</td>
+            <td>Ship</td>
+        </tr>
+        <tr>
+            <td colspan="2">Summit Resort Rentals</td> <!--Data can span columns using the colspan attribute-->
+            <td>4</td>
+            <td>Ship</td>
+        </tr>
+        <tr>
+            <td>Strike Fitness</td>
+            <td>1</td>
+            <td>Enter Order</td>
+        </tr>
+    </tbody>
   </table>
 
 </body>
