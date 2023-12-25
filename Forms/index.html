@@ -36,6 +36,28 @@
         <input type="text" name="username" id="username">
         <!--<label> element has an opening and closing tag and displays text, it is paired with the input with an id element-->
         <label for="username">Username:</label>
+        <br>
+        <label for="user-pw">Password:</label>
+        <input type="password" id="user-pw" name="user-pw">
+        
+        <br>
+        <br>
+        
+        <!--
+            setting type="number" for an <input> we can restrict what users type into the input field to just numbers (and a few special characters like -, +, and .)
+            step attribute sets how fast users can inc or dec num
+        -->
+        <h1>Create a burger!</h1>
+		<section class="protein">
+            <label for="patty">What type of protein would you like?</label>
+    	    <input type="text" name="patty" id="patty" value="beef">
+        </section>
+        <hr>
+
+        <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+          <input type="number" id="amount" step="1" name="amount">
+
     </section>
   </body>
 </html>
