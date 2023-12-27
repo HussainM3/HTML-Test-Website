@@ -65,9 +65,25 @@
             <label for="doneness">How do you want your patty cooked</label>
             <br>
             <span>Rare</span>
-            <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
+            <input type="range" id="doneness" name="doneness" min="0" max="5" step="0.5">
             
             <span>Well-Done</span>
+        </section>
+
+        <!--Check box (multiple selection)-->
+        <section class="toppings">
+            <span>What toppings would you like?</span>
+            <br>
+            
+            <label for="cheese">Cheese</label>
+            <input type="checkbox" id="cheese" name="topping" value="cheese">
+
+            <label for="lettuce">Lettuce</label>
+            <input type="checkbox" id="lettuce" name="topping" value="lettuce">
+
+            <label for="tomato">Tomato</label>
+            <input type="checkbox" id="tomato" name="topping" value="tomato">
+
         </section>
 
     </section>
