@@ -24,7 +24,7 @@
     <section id="overlay">
       <img src="https://content.codecademy.com/courses/web-101/unit-6/htmlcss1-img_burger-logo.svg" alt="Davie's Burgers Logo" id="logo">
       <hr>
-      <!--Add your code below-->
+      <!--action attribute determines where info is sent-->
       <form action="/practice.html" method="post"></form>
         <h1>Login to start creating a burger!</h1>
         <!--
@@ -33,9 +33,9 @@
             After users type into the <input> element, value of the value attribute becomes what is typed 
             The value of the value attribute is paired with the value of the name attribute and sent as text when the form is submitted
         -->
+        <label for="username">Username:</label>
         <input type="text" name="username" id="username">
         <!--<label> element has an opening and closing tag and displays text, it is paired with the input with an id element-->
-        <label for="username">Username:</label>
         <br>
         <label for="user-pw">Password:</label>
         <input type="password" id="user-pw" name="user-pw">
@@ -75,14 +75,14 @@
             <span>What toppings would you like?</span>
             <br>
             
-            <label for="onion">Onion</label>
             <input type="checkbox" id="onion" name="topping" value="onion">
+            <label for="onion">Onion</label>
 
-            <label for="lettuce">Lettuce</label>
             <input type="checkbox" id="lettuce" name="topping" value="lettuce">
+            <label for="lettuce">Lettuce</label>
 
-            <label for="tomato">Tomato</label>
             <input type="checkbox" id="tomato" name="topping" value="tomato">
+            <label for="tomato">Tomato</label>
         </section>
 
         <!--Radio button (multiple input one choice)-->
