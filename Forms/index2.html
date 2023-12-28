@@ -25,6 +25,23 @@
         <input type="submit" id="submission" value="Submit">
       </form>
     </section>
+
+    <section class = "overlay">
+        <h1>Sing Up</h1>
+        <p>Create an account:</p>
+        <form action="submission.html" method="get">
+        <!--add the minlength attribute and a value to set a minimum value(vice versa for max)-->
+        <label for="username">Username:</label>
+        <br>
+        <input id="username" name="username" type="text" required minlength="3" maxlength="15">
+        <br>
+        <label for="pw">Password:</label>
+        <br>
+        <input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+        <br>
+        <input type="submit" value="Submit">
+        </form>
+    </section>
   </body>
 </html>
  
