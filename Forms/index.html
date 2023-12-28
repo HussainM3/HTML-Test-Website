@@ -83,9 +83,9 @@
 
             <label for="tomato">Tomato</label>
             <input type="checkbox" id="tomato" name="topping" value="tomato">
-
         </section>
 
+        <!--Radio button (multiple input one choice)-->
         <section class="cheesy">
             <span>Would you like to add cheese?</span>
             <br>
@@ -95,7 +95,16 @@
 
             <input type="radio" id="no" name="cheese" value="no">
             <label for="no">No</label>
+        </section>
 
+        <!--Dropdown menu, When <form> submitted, info from input sent using name of <select> and value of <option>-->
+        <section class="bun-type">
+            <label for="bun">What type of bun would you like?</label>
+            <select name="bun" id="bun">
+                <option value="sesame">Sesame</option>
+                <option value="potato">Potato</option>
+                <option value="pretzel">Pretzel</option>
+            </select>
         </section>
 
     </section>
