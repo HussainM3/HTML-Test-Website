@@ -51,11 +51,11 @@ const container = document.getElementById('app')
     // document reoresents webpage
     // getElementById() method of document gets Element representing HTML element with  passed in id (app)
 
-const root = createRoot(container)
+const root = createRoot(container) // placed in index.js
     // use createRoot() from react-dom/client library ro create react root
     // represents where to place the content part of React rendering
 
-root.render(<h1>Hello world</h1>)
+root.render(<h1>Hello world</h1>) // placed in index.js
     // uses render method of root
     // represents what to render part of React rendering
     // can also pass in variable here
