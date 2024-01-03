@@ -114,4 +114,10 @@ const pics = {
       alt="Ghastly Abomination" />
   ); 
   
+  // event listener created as attributes, and value should be a function (clickAlert)
+
+  function clickAlert() {
+    alert('You clicked this image!');
+  }
   
+  <img onClick={clickAlert} />
