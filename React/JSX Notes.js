@@ -114,17 +114,28 @@ const pics = {
       alt="Ghastly Abomination" />
   ); 
   
-  // event listener created as attributes, and value should be a function (clickAlert)
+// event listener created as attributes, and value should be a function (clickAlert)
 
-  function clickAlert() {
-    alert('You clicked this image!');
-  }
-  
-  <img onClick={clickAlert} />
+function clickAlert() {
+alert('You clicked this image!');
+}
 
-  // if statements can't be used in jsx but can be in javascript
-  if (coinToss() == 'heads'){
-    img = <img src={pics.kitty} />
-  } else {
-    img = <img src={pics.doggy} />
-  };
+<img onClick={clickAlert} />
+
+// if statements can't be used in jsx but can be in javascript
+if (coinToss() == 'heads'){
+img = <img src={pics.kitty} />
+} else {
+img = <img src={pics.doggy} />
+};
+
+// can also use ternary conditionals and && operators
+    // x ? y : z
+    // {!judgmental && <li>Nacho Cheez Straight Out The Jar</li>}
+
+// can use .map() to create a list of JSX elements from an array
+const strings = ['Home', 'Shop', 'About Me'];
+
+const listItems = strings.map(string => <li>{string}</li>);
+
+<ul>{listItems}</ul>
