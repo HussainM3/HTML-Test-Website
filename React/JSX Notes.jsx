@@ -1,3 +1,6 @@
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+
 // - JSX is syntax extension for JavaScript
 //     - used with react
 //     - syntax extension means not valid javascript (web browsers cant read it)
@@ -39,3 +42,29 @@ const title = (
     //     <p>I am a paragraph.</p> 
     //     <p>I, too, am a paragraph.</p>
     //   );
+
+
+// Rendering JSX:
+
+//  React relies on two things to render: what content to render and where to place the content
+const container = document.getElementById('app')
+    // document reoresents webpage
+    // getElementById() method of document gets Element representing HTML element with  passed in id (app)
+
+const root = createRoot(container)
+    // use createRoot() from react-dom/client library ro create react root
+    // represents where to place the content part of React rendering
+
+root.render(<h1>Hello world</h1>)
+    // uses render method of root
+    // represents what to render part of React rendering
+    // can also pass in variable here
+
+// React root's render() method only updates DOM elements that changed:
+const hello = <h1>Hello world</h1>;
+
+// This will add "Hello world" to the screen:
+root.render(hello, document.getElementById('app'));
+
+// This won't do anything at all:
+root.render(hello, document.getElementById('app'));
