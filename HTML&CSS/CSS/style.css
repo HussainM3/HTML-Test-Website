@@ -48,3 +48,12 @@ a:hover {
     color: darkorange;
 } 
 /* above code changes color of link if mouse hovers it */
+
+/* Specificity is the order by which the browser decides which CSS styles will be displayed 
+   Good practice to order using the lowest degree of specificity to highes. 
+   IDs are the most specific > classes > type.*/
+
+/* Can also chain elements (e.g type and class): */
+h2.destination {
+    font-family: Tahoma;
+    }
