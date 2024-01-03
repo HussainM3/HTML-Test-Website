@@ -37,3 +37,9 @@ h1 {
     text-transform: uppercase;
 }
 
+/* To select an element’s ID with CSS, we prepend the id name with a number sign (#):
+    <h1 class='title uppercase' id='article-title'>Top Vacation Spots</h1> */
+#article-title{
+    font-family: cursive;
+}
+
