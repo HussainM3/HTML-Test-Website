@@ -12,7 +12,7 @@ Ruleset Terms:
     Value — second part of declaration signifying value of the property 
 */
 
-/* Below, a type selector is used: p */
+/* Below, a type selector is used: p, h1 */
 p {
     color: green;
 }
@@ -20,3 +20,20 @@ p {
 h1 {
     color: maroon;
 }
+
+/* Universal selector is * */
+/* * {
+    border: 1px solid red;
+  } */
+
+/* To select an HTML element by its class using CSS, a period (.) must be prepended to the class’s name
+(Value of what class is set to. e.g <h1 class='title'>Top Vacation Spots</h1>*/
+.title {
+    color: teal;
+}
+
+/* can add multiple classes to HTML element’s class attribute: <h1 class='title uppercase'>Top Vacation Spots</h1> */
+.uppercase{
+    text-transform: uppercase;
+}
+
