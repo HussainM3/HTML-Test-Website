@@ -79,3 +79,39 @@ root.render(hello, document.getElementById('app'));
 
 // Add curly braces to treat jsx code like javascript code:
 <h1>{2 + 3}</h1>
+
+// common to use vars and object properties to set attributes
+const sideLength = "200px";
+const panda1 = (
+  <img 
+    src="images/panda.jpg" 
+    alt="panda" 
+    height={sideLength} 
+    width={sideLength} />
+);
+
+const pics = {
+    panda: "http://bit.ly/1Tqltv5",
+    owl: "http://bit.ly/1XGtkM3",
+    owlCat: "http://bit.ly/1Upbczi"
+  }; 
+  
+  const panda2 = (
+    <img 
+      src={pics.panda} 
+      alt="Lazy Panda" />
+  );
+  
+  const owl = (
+    <img 
+      src={pics.owl} 
+      alt="Unimpressed Owl" />
+  );
+  
+  const owlCat = (
+    <img 
+      src={pics.owlCat} 
+      alt="Ghastly Abomination" />
+  ); 
+  
+  
