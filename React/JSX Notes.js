@@ -121,3 +121,10 @@ const pics = {
   }
   
   <img onClick={clickAlert} />
+
+  // if statements can't be used in jsx but can be in javascript
+  if (coinToss() == 'heads'){
+    img = <img src={pics.kitty} />
+  } else {
+    img = <img src={pics.doggy} />
+  };
