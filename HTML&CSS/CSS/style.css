@@ -57,3 +57,13 @@ a:hover {
 h2.destination {
     font-family: Tahoma;
     }
+
+/* Can get descendants of an element just by writing its descendant after: */
+li h4 {
+    color: gold;
+}
+
+/* set multiple elements by separating by comma: */
+h5, li {
+    font-family: monospace;
+}
