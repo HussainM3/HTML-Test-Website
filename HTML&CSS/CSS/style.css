@@ -1,0 +1,14 @@
+/* 
+Example method:
+    p {
+        color: red;
+    } 
+
+Ruleset Terms:
+    Selector — beginning of ruleset used to target element styled
+    Declaration Block — code in-between (and including) curly braces ({ }) containing CSS declaration(s)
+    Declaration — group name for property and value pair that applying style to selected element
+    Property — first part of declaration signifying visual characteristic of the element to be modified
+    Value — second part of declaration signifying value of the property 
+*/
+
