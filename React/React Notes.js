@@ -154,3 +154,10 @@ const listItems = strings.map(string => <li>{string}</li>);
 function MyComponent() {
   return <h1>Hello, this is a function component body.</h1>;
 }
+
+// need to export component to index.js to render it
+export default MyComponent; // in app.js
+import MyComponent from './MyComponent'; // in index.js
+
+// to render component, use .createRoot() and .render() methods from react-dom/client
+ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
