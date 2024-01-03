@@ -12,3 +12,11 @@ Ruleset Terms:
     Value — second part of declaration signifying value of the property 
 */
 
+/* Below, a type selector is used: p */
+p {
+    color: green;
+}
+
+h1 {
+    color: maroon;
+}
