@@ -1,5 +1,5 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
+import { createRoot } from 'react-dom/client'; // dom used in react apps but isn't part of react
 
 // - JSX is syntax extension for JavaScript
 //     - used with react
@@ -143,3 +143,14 @@ const listItems = strings.map(string => <li>{string}</li>);
 // sometimes lists need keys
     // keys needed when items have memory from one render to the next
     // keys needed when list items can be reordered
+
+
+
+
+// React Components:
+    // applications built from components
+
+ // can be built from javascript functions
+function MyComponent() {
+  return <h1>Hello, this is a function component body.</h1>;
+}
