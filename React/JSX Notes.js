@@ -139,3 +139,7 @@ const strings = ['Home', 'Shop', 'About Me'];
 const listItems = strings.map(string => <li>{string}</li>);
 
 <ul>{listItems}</ul>
+
+// sometimes lists need keys
+    // keys needed when items have memory from one render to the next
+    // keys needed when list items can be reordered
