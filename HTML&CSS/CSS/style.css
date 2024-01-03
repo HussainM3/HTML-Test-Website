@@ -43,3 +43,8 @@ h1 {
     font-family: cursive;
 }
 
+/* Factors such as user interaction, site navigation, and position in the document tree can give elements different state with pseudo-class */
+a:hover {
+    color: darkorange;
+} 
+/* above code changes color of link if mouse hovers it */
