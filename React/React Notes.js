@@ -48,8 +48,8 @@ const title = (
 
 //  React relies on two things to render: what content to render and where to place the content
 const container = document.getElementById('app')
-    // document reoresents webpage
-    // getElementById() method of document gets Element representing HTML element with  passed in id (app)
+    // document represents webpage
+    // getElementById() method of document gets Element representing HTML element (in HTML file) with  passed in id (app)
 
 const root = createRoot(container) // placed in index.js
     // use createRoot() from react-dom/client library ro create react root
