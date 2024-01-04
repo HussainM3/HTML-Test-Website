@@ -107,3 +107,7 @@ h1 {
   font-family: Caslon, Georgia, 'Times New Roman';
 }
 /* Georgia and times new roman are fallback fonts if Caslon is not available */
+
+/* font-weight goes from 1-1000 (bold, normal, lighter, bolder) */
+
+/* Can add links to fonts in index file head div to ensure they are used in site */
