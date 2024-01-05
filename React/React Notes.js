@@ -161,3 +161,29 @@ import MyComponent from './MyComponent'; // in index.js
 
 // to render component, use .createRoot() and .render() methods from react-dom/client
 ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
+
+// multi-line JSX expression should always be wrapped in parentheses. See return statement in App.js
+
+// // Example
+// import React from 'react';
+
+// // name of main function is same as file
+// function Owl() {
+//   return (
+//     <div>
+//       <h1>
+//         {owl.title} {/* remember to use curly braces to access since its a javascript property */}
+//       </h1>
+//     </div>
+//   );
+// }
+
+// // owl object
+// const owl = {
+//   title: 'Excellent Owl',
+//   src: 'https://content.codecademy.com/courses/React/react_photo-owl.jpg'
+// };
+
+// //Define function component here:
+// export default Owl
+
