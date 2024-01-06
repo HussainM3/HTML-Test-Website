@@ -189,6 +189,7 @@ ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
 
 
 //  function component must have a return statement. However, that isn’t all that it can have
+// can also have if statements
 // example
 // function Friend(){
 //   var friend = friends[2];
@@ -199,4 +200,16 @@ ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
 //     <img  src = {friend.src}/>
 //   </div>);
 // }
+
+// function comnponents can include event handelers
+// import React from 'react';
+
+// function SubmitButton() {
+//   function handleClick() {
+//     alert('Submission Successful.');
+//   }
+//   return <button onClick = {handleClick}>Submit</button>;
+// }
+
+// export default SubmitButton;
 
