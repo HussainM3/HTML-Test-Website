@@ -187,3 +187,16 @@ ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
 // //Define function component here:
 // export default Owl
 
+
+//  function component must have a return statement. However, that isn’t all that it can have
+// example
+// function Friend(){
+//   var friend = friends[2];
+//   return (<div>
+//     <h1>
+//       {friend.title}
+//     </h1>
+//     <img  src = {friend.src}/>
+//   </div>);
+// }
+
