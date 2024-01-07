@@ -147,6 +147,11 @@ const listItems = strings.map(string => <li>{string}</li>);
 
 
 
+
+
+
+
+
 // React Components:
     // applications built from components
 
@@ -215,3 +220,11 @@ ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
  
 // Components interacting allows them to be broken into smaller components, stored into separate files, and reused when necessary.
 // eg can have separate navbar javascript file and import it
+
+
+
+
+
+
+
+// props
