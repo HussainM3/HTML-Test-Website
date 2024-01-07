@@ -228,3 +228,7 @@ ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
 
 
 // props
+  // every component has props
+  // object that holds info about component
+  // eg. type and value for this button: <button type="submit" value="Submit"> Submit </button> 
+  // accessed with dot notation: props.name
