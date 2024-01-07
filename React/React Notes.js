@@ -212,4 +212,6 @@ ReactDOM.createRoot(document.getElementById('app')).render(<MyComponent />);
 // }
 
 // export default SubmitButton;
-
+ 
+// Components interacting allows them to be broken into smaller components, stored into separate files, and reused when necessary.
+// eg can have separate navbar javascript file and import it
