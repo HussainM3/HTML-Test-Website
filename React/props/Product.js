@@ -13,3 +13,17 @@ function Product(props) {
 }
 
 export default Product;
+
+// // defining eventhandler in js
+// function Example() {
+//   function handleEvent() {
+//     alert(`I am an event handler.
+//       If you see this message,
+//       then I have been called.`);
+//   }
+//   return (
+//       <h1 onClick={handleEvent}>
+//         Hello world
+//       </h1>
+//     );
+// }
