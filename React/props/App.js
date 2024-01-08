@@ -11,3 +11,19 @@ function App() {
 // }
 
 export default App;
+
+
+
+// // recieving an eventhandler as prop (as expected)
+// import React from 'react';
+
+// function Button(props) {
+//   return (
+//     // just set the onClick to the talk function (called talk from child js file)
+//     <button onClick={props.talk}>  
+//       Click me!
+//     </button>
+//   );
+// }
+
+// export default Button;

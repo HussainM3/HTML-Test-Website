@@ -27,3 +27,24 @@ export default Product;
 //       </h1>
 //     );
 // }
+
+
+
+
+
+// // sending an event handler:
+// import React from 'react';
+// import Button from './Button';
+
+// function Talker() {
+//   function talk() {
+//     let speech = '';
+//     for (let i = 0; i < 10000; i++) {
+//       speech += 'blah ';
+//     }
+//     alert(speech);
+// 	}
+//   return <Button talk={talk}/>; // after event handler defined, you just set it as the value
+// }
+
+// export default Talker;
