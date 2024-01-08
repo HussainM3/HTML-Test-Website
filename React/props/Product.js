@@ -48,3 +48,23 @@ export default Product;
 // }
 
 // export default Talker;
+
+// props.children returns everything between opening and closing tags
+// e.g look at:
+// Example 1
+{/* <BigButton>
+  I am a child of BigButton.
+</BigButton>
+
+
+// Example 2
+<BigButton>
+  <LilButton />
+</BigButton>
+
+
+// Example 3
+<BigButton /> */}
+// In Example 1, <BigButton>‘s props.children would equal the text, “I am a child of BigButton.”
+// In Example 2, <BigButton>‘s props.children would equal a <LilButton /> component.
+// In Example 3, <BigButton>‘s props.children would equal undefined.
