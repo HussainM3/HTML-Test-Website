@@ -68,3 +68,13 @@ export default Product;
 // In Example 1, <BigButton>‘s props.children would equal the text, “I am a child of BigButton.”
 // In Example 2, <BigButton>‘s props.children would equal a <LilButton /> component.
 // In Example 3, <BigButton>‘s props.children would equal undefined.
+
+
+// // display default with .defaultProps static property as shown:
+// function Example(props) {
+//   return <h1>{props.text}</h1>
+// }
+
+// Example.defaultProps = {
+//   text: 'This is default text',
+// };
