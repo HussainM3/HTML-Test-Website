@@ -36,7 +36,7 @@ export default Product;
 // import React from 'react';
 // import Button from './Button';
 
-// function Talker() {
+// function Talker() { // event listener should use naming convention "handle_" (e.g handleTalk)
 //   function talk() {
 //     let speech = '';
 //     for (let i = 0; i < 10000; i++) {

@@ -23,7 +23,7 @@ export default App;
 //     <button onClick={props.talk}>  
 //       Click me!
 //     </button>
-//   );
+//   ); // prop should use naming convention "on_" e.g (onClick)
 // }
 
 // export default Button;
