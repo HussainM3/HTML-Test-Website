@@ -4,4 +4,4 @@
 - It is intended to be used as a scrap, experimental repo
 - HTML features have been learned and applied
 - CSS features have been learned and applied
-- JavaScript/React features are being worked on
+- JavaScript/React features are being worked on but also applied
